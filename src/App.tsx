@@ -61,7 +61,13 @@ const App: React.FC = () => {
 
 const AppStyles = css`
     margin: 50px auto;
-    width: 380px;
+    width: 450px;
+    @media screen and (max-width: 768px) {
+        width: 380px;
+    }
+    @media screen and (max-width: 420px) {
+        width: 340px;
+    }
 
     .Container {
         background-color: #1d1e26;

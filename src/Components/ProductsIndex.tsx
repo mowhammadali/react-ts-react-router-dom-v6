@@ -87,7 +87,7 @@ const ProductsIndex: React.FC = () => {
                 defaultChecked = {searchParams.get('sort') === 'price'}/>
             </div>
             <div className="ProductsIndex-Radios">
-                <span>Order:</span>
+                <span>Order :</span>
                 <label htmlFor = "order-ascending">Ascending:</label>
                 <input type="radio" 
                 id = "order-ascending"
@@ -121,7 +121,6 @@ const ProductsIndexStyles = css`
       gap: 5px;
       margin-bottom: 15px;
       span {
-        width: 35px;
         color: #fff;
         font-size: 0.8rem;
         margin-right: 10px;
